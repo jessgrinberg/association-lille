@@ -205,13 +205,21 @@ header {
     font-weight: 300;
   }
 
-  /*Section temoignage*/
-
-  .section-temoignage h2 {
+  .section-temoignage h2,
+  .section-engagement h2 {
     margin-bottom: 30px;
   }
 
-  .section-temoignage h2:after {
+  .section-actualite h2 {
+    margin-bottom: 60px;
+  }
+
+  /*Section temoignage*/
+
+
+
+  .section-temoignage h2:after,
+  .section-engagement h2:after {
     display: block;
     height: 2px;
     background-color: #ff3547;
@@ -221,7 +229,8 @@ header {
     margin-top: 30px;
   }
 
-  .section-temoignage .long-copy {
+  .section-temoignage .long-copy,
+  .section-engagement .long-copy {
     margin-bottom: 30px;
   }
 
@@ -264,7 +273,6 @@ header {
 
   .section-actualite h2 {
     color: #ff3547;
-    margin-bottom: 60px;
   }
 
   /*Caroussel*/
@@ -279,7 +287,54 @@ header {
   }
 
 
+/*Section Engagement*/
+  .steps {
+    margin-bottom: 60px
+  }
 
+  .works-step {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .works-step div {
+      color: #ff3547;
+      border: 2px solid #ff3547;
+      display: inline-block;
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+      text-align: center;
+      padding: 5px;
+      float: left;
+      font-size: 150%;
+      margin-right: 25px;
+      margin-bottom: 50px;
+  }
+
+  .works-step p {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+
+/*Container icon*/
+
+.icons img {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.icons h3 {
+  font-weight: 300;
+  color: #ff3547;
+}
+
+.icons p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+}
 
 
 
