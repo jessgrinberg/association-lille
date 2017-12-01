@@ -106,7 +106,7 @@ header {
 }
 
 .hero p {
-  font-size: 16px;
+  font-size: 20px;
   margin: 30px auto 30px auto;
   font-weight: 300;
 }
@@ -292,6 +292,10 @@ header {
     margin-bottom: 60px
   }
 
+  .steps img {
+    box-shadow: 2px 5px 20px rgba(0,0,0,0.1);
+  }
+
   .works-step {
     margin-bottom: 50px;
     margin-top: 50px;
@@ -335,6 +339,47 @@ header {
   font-size: 16px;
   line-height: 22px;
 }
+
+/*Footer*/
+footer {
+  background: #373942;
+  padding: 60px 0;
+}
+
+footer img {
+  padding: 20px;
+}
+
+footer h3 {
+  text-transform: uppercase;
+  color: #ff3547;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul li {
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+footer ul li a {
+  color: #fff;
+}
+
+footer ul li a:hover {
+  text-decoration: none;
+  color: #ff3547;
+}
+
+
 
 
 
