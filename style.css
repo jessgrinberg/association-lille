@@ -192,14 +192,23 @@ header {
     background-color: #f2f2f2;
   }
 
-  .section-temoignage h2 {
+  .section-actualite {
+    background-color: #373942;
+  }
+
+  section h2 {
     font-size: 180%;
     word-spacing: 2px;
     text-align: center;
-    margin-bottom: 30px;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: 300;
+  }
+
+  /*Section temoignage*/
+
+  .section-temoignage h2 {
+    margin-bottom: 30px;
   }
 
   .section-temoignage h2:after {
@@ -251,6 +260,23 @@ header {
   }
 
 
+  /*Section actualité*/
+
+  .section-actualite h2 {
+    color: #ff3547;
+    margin-bottom: 60px;
+  }
+
+  /*Caroussel*/
+  .carousel-inner .item img {
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .carousel-control {
+    background-image: none !important;
+  }
 
 
 
