@@ -111,7 +111,7 @@ header {
   font-weight: 300;
 }
 
-/*.btn {
+.btn {
     font-size: 12px;
     letter-spacing: 0.1em;
     padding: 15px 25px;
@@ -122,11 +122,11 @@ header {
     white-space: normal!important;
     word-wrap: break-word;
     text-transform: uppercase;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    /*box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);*/
 }
 
 .btn:hover {
-  box-shadow: 0 4px 10px 0 rgba(0,0,0,.16), 0 4px 20px 0 rgba(0,0,0,.12);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
   background-color: #ff4f5e;
 }
 
@@ -135,8 +135,10 @@ header {
 }
 
 .btn-danger {
-  background-color: #ff3547;
-}*/
+  background-color: transparent;
+  border: 1px solid #ff4f5e;
+  color: #ff4f5e;
+}
 
 
 /*BOTTOM BTN*/
@@ -168,8 +170,7 @@ header {
   }
 
   .red-one {
-    /*background-color: #ff4f5e;*/
-    background-color:#ff3547;
+    background-color: #ff4f5e;
   }
 
   .red-two{
@@ -177,8 +178,7 @@ header {
   }
 
   .red-three {
-    /*background-color: #ff0018;*/
-    background-color:#ff3547;
+    background-color: #ff0018;
   }
 
 
@@ -206,7 +206,8 @@ header {
   }
 
   .section-temoignage h2,
-  .section-engagement h2 {
+  .section-engagement h2,
+  .section-icons h2 {
     margin-bottom: 30px;
   }
 
@@ -219,7 +220,8 @@ header {
 
 
   .section-temoignage h2:after,
-  .section-engagement h2:after {
+  .section-engagement h2:after,
+  .section-icons h2:after {
     display: block;
     height: 2px;
     background-color: #ff3547;
@@ -287,6 +289,7 @@ header {
   }
 
 
+
 /*Section Engagement*/
   .steps {
     margin-bottom: 60px
@@ -298,7 +301,6 @@ header {
 
   .works-step {
     margin-bottom: 50px;
-    margin-top: 50px;
   }
 
   .works-step div {
@@ -323,21 +325,63 @@ header {
 
 
 /*Container icon*/
+.section-icons {
+  background: #f2f2f2;
+}
+
+.icons {
+  padding: 20px;
+}
+
+.icons:hover {
+  background: #fff;
+  box-shadow: 2px 5px 20px rgba(0,0,0,0.1);
+  transition: all ease 0.3s;
+}
+
+.icons a {
+  color: #333;
+  text-decoration: none;
+}
+
+.icons:hover a {
+  text-decoration: none;
+}
 
 .icons img {
   width: 100px;
   margin: 0 auto;
 }
 
+/*.icons .arrow {
+  display: none;
+  width: 50px;
+}
+
+.icons:hover .arrow {
+  display: block;
+}*/
+
+/*.icons .savoir {
+  color: #ff3547;
+}*/
+
+/*.icons:hover .savoir {
+  display: none;
+}*/
+
 .icons h3 {
   font-weight: 300;
   color: #ff3547;
+  margin: 30px 0;
 }
 
 .icons p {
   font-weight: 300;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 26px;
+  text-align: justify;
+  margin-bottom: 20px;
 }
 
 /*Footer*/
