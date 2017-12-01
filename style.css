@@ -405,13 +405,10 @@ header {
 }
 
 /*Footer*/
+
 footer {
   background: #373942;
   padding: 60px 0;
-}
-
-footer img {
-  padding: 20px;
 }
 
 footer h3 {
@@ -434,15 +431,39 @@ footer ul li {
   font-size: 14px;
 }
 
-footer ul li a {
+footer a {
   color: #fff;
 }
 
-footer ul li a:hover {
+footer a:hover {
   text-decoration: none;
   color: #ff3547;
 }
 
+footer i.fa {
+  font-size: 22px;
+  margin: 0 10px;
+}
+
+footer div:first-child {
+  margin-bottom: 20px;
+}
+
+.hacktiv-logo,
+.lille-logo {
+  display: block;
+  padding: 0;
+}
+
+.hacktiv-logo {
+  width: 60px;
+  margin: 20px 0;
+}
+
+.lille-logo {
+  width: 100px;
+  margin: 20px auto;
+}
 
 
 
