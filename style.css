@@ -152,11 +152,11 @@ header {
     bottom: 0;
 }
 
-.tabStrip .nav-tabs>li>a {
+.tabStrip .nav-tabs a {
   border: 0px solid transparent;
   color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 .tabStrip ul {
@@ -169,8 +169,14 @@ header {
     padding: 20px;
   }
 
+
   .red-one {
     background-color: #ff4f5e;
+  }
+
+  .red-one:hover, .red-two:hover, .red-three:hover {
+    opacity: 0.8;
+    transition: all ease .3s;
   }
 
   .red-two{
