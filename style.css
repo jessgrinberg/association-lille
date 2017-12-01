@@ -42,9 +42,9 @@ header {
 }
 
 .navbar-nav li a {
- /*line-height: 100px;*/
  letter-spacing: 0.1em;
  text-transform: uppercase;
+ border: 0px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -64,7 +64,6 @@ header {
 .navbar-nav> li a:active {
 	border-bottom: 2px solid #cb2a2a;
 }
-
 
 .navbar-toggle {
   margin-top: 40px;
@@ -90,9 +89,20 @@ header {
   margin-right: 10px;
 }
 
+/*FIXED BOTTOM NAVBAR*/
+
+.fixed-me{
+  opacity: .9;
+  position: fixed;
+  top:0;
+  z-index:888;
+  width: 100%;
+}
+
+
+/*HERO*/
 .hero {
     position: absolute;
-    /*max-width: 1140px;*/
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -150,6 +160,10 @@ header {
     padding-right: 0;
     width: 100%;
     bottom: 0;
+}
+
+.nav-tabs {
+    border-bottom: 0px solid #ddd;
 }
 
 .tabStrip .nav-tabs a {
