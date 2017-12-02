@@ -33,6 +33,10 @@ header {
   background-color: transparent;
 }
 
+.navbar-brand img {
+  width: 200px;
+}
+
 .navbar-nav>li {
   margin-left: 40px;
 }
@@ -166,7 +170,9 @@ header {
     border-bottom: 0px solid #ddd;
 }
 
-.tabStrip .nav-tabs a {
+
+
+.tabStrip .nav-tabs >a {
   border: 0px solid transparent;
   color: #fff;
   text-transform: uppercase;
@@ -175,31 +181,31 @@ header {
 
 .tabStrip ul {
   padding-left: 0px;
-    margin-bottom: 0px;
-    list-style: none;
-  }
+  margin-bottom: 0px;
+  list-style: none;
+}
 
-  .tabStrip ul li {
-    padding: 20px;
-  }
+.tabStrip ul li {
+  padding: 20px;
+}
 
 
-  .red-one {
-    background-color: #ff4f5e;
-  }
+.red-one {
+  background-color: #ff4f5e;
+}
 
-  .red-one:hover, .red-two:hover, .red-three:hover {
-    opacity: 0.8;
-    transition: all ease .3s;
-  }
+.red-one:hover, .red-two:hover, .red-three:hover {
+  opacity: 0.8;
+  transition: all ease .3s;
+}
 
-  .red-two{
-    background-color:#ff3547;
-  }
+.red-two{
+  background-color:#ff3547;
+}
 
-  .red-three {
-    background-color: #ff0018;
-  }
+.red-three {
+  background-color: #ff0018;
+}
 
 
   /*SECTION*/
@@ -465,6 +471,27 @@ footer div:first-child {
 }
 
 
+@media (max-width: 768px) {
+  .navbar-brand img {
+    width: 150px;
+  }
+
+  .navbar-brand {
+     height: 0; 
+  }
+
+  .navbar-toggle {
+    margin-top: 20px;
+  }
+
+  .hero h1 {
+      font-size: 25px;
+  }
+  .hero p {
+    font-size: 16px;
+  }
+}
+
 @media (max-width:992px) {
   .steps img {
     margin: 20px 0;
@@ -479,14 +506,13 @@ footer div:first-child {
   .navbar {
       border-radius: 0px;
   }
-
 }
 
 
 @media (min-width: 936px) {
 
   .navbar-nav li a {
-   margin-top: 50px;
+   margin-top: 40px;
   }
 
 }
