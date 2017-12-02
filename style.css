@@ -208,125 +208,142 @@ header {
 }
 
 
-  /*SECTION*/
+/*SECTION*/
 
-  section {
-    padding: 60px 0;
-  }
+section {
+  padding: 60px 0;
+}
 
-  .section-temoignage {
-    background-color: #f2f2f2;
-  }
+.section-temoignage {
+  background-color: #f2f2f2;
+}
 
-  .section-actualite {
-    background-color: #373942;
-  }
+.section-actualite {
+  background-color: #373942;
+}
 
-  section h2 {
-    font-size: 180%;
-    word-spacing: 2px;
-    text-align: center;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: 300;
-  }
+section h2 {
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
 
-  .section-temoignage h2,
-  .section-engagement h2,
-  .section-icons h2 {
-    margin-bottom: 30px;
-  }
+.section-temoignage h2,
+.section-engagement h2,
+.section-icons h2 {
+  margin-bottom: 30px;
+}
 
-  .section-actualite h2 {
-    margin-bottom: 60px;
-  }
+.section-actualite h2 {
+  margin-bottom: 60px;
+}
 
-  /*Section temoignage*/
-
-
-
-  .section-temoignage h2:after,
-  .section-engagement h2:after,
-  .section-icons h2:after {
-    display: block;
-    height: 2px;
-    background-color: #ff3547;
-    content: " ";
-    width: 100px;
-    margin: 0 auto;
-    margin-top: 30px;
-  }
-
-  .section-temoignage .long-copy,
-  .section-engagement .long-copy {
-    margin-bottom: 30px;
-  }
-
-  .long-copy {
-    line-height: 145%;
-    width: 70%;
-    margin-left: 15%;
-    text-align: center;
-    font-size: 16px;
-  }
-
-  /*CARDS*/
-
-  .thumbnail {
-    padding: 0px;
-    border-radius: 0px;
-    box-shadow: 2px 5px 20px rgba(0,0,0,0.1);
-    border: 0px solid #ddd;
-  }
-
-  .caption {
-    display: flex;
-    align-items: center;
-  }
-
-  .caption a {
-    text-decoration: none;
-    color: #333;
-  }
-
-  .excerpt {
-    font-size: 14px;
-    display: block;
-    font-weight: 300;
-    margin-top: 5px;
-  }
+/*Section temoignage*/
 
 
-  /*Section actualité*/
 
-  .section-actualite h2 {
-    color: #ff3547;
-  }
+.section-temoignage h2:after,
+.section-engagement h2:after,
+.section-icons h2:after {
+  display: block;
+  height: 2px;
+  background-color: #ff3547;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
 
-  .carousel-caption h5 {
-    letter-spacing: 0.1em;
-  }
+.section-temoignage .long-copy,
+.section-engagement .long-copy {
+  margin-bottom: 30px;
+}
 
-  .carousel-caption p,
-  .carousel-caption span {
-    font-weight: 300;
-  }
+.long-copy {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+  font-size: 16px;
+}
 
-  .carousel-caption span {
-    font-size: 12px;
-  }
+/*CARDS*/
 
-  .carousel-caption {
-      position: relative;
-      left: auto;
-      right: auto;
-  }
+.thumbnail {
+  padding: 0px;
+  border-radius: 0px;
+  box-shadow: 2px 5px 20px rgba(0,0,0,0.1);
+  border: 0px solid #ddd;
+}
 
-  .carousel-inner.onebyone-carosel { margin: auto; width: 90%; }
-  .onebyone-carosel .active.left { left: -33.33%; }
-  .onebyone-carosel .active.right { left: 33.33%; }
-  .onebyone-carosel .next { left: 33.33%; }
-  .onebyone-carosel .prev { left: -33.33%; }
+.caption {
+  display: flex;
+  align-items: center;
+}
+
+.caption a {
+  text-decoration: none;
+  color: #333;
+}
+
+.excerpt {
+  font-size: 14px;
+  display: block;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+
+/*Section actualité*/
+
+.section-actualite h2 {
+  color: #ff3547;
+}
+
+.carousel-caption h5 {
+  letter-spacing: 0.1em;
+}
+
+.carousel-caption p,
+.carousel-caption span {
+  font-weight: 300;
+}
+
+.carousel-caption span {
+  font-size: 12px;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
+
+  /* override position and transform in 3.3.x */
+.carousel-inner .item.left.active {
+  transform: translateX(-33%);
+}
+.carousel-inner .item.right.active {
+  transform: translateX(33%);
+}
+
+.carousel-inner .item.next {
+  transform: translateX(33%)
+}
+.carousel-inner .item.prev {
+  transform: translateX(-33%)
+}
+
+.carousel-inner .item.right,
+.carousel-inner .item.left {
+  transform: translateX(0);
+}
+
+
+.carousel-control.left,.carousel-control.right {background-image:none;}
 
 
 /*Section Engagement*/
